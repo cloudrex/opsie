@@ -5,7 +5,7 @@
     "main": "app.js",
     "scripts": {
         "start": "node app.js",
-        "postinstall": "opsie"
+        "postinstall": "node app.js"
     },
     "keywords": [
         "opsie"
@@ -13,9 +13,6 @@
     "files": [
         "app.js"
     ],
-    "bin": {
-        "opsie": "app.js"
-    },
     "author": "Atlas <cloudrex@outlook.com>",
     "license": "MIT"
 }

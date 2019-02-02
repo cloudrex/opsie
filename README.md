@@ -6,6 +6,8 @@ do big opsie
 
 #### Usage
 
+Just install it!
+
 ```
-$ opsie
+$ npm i -g opsie
 ```

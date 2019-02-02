@@ -8,9 +8,11 @@ console.log("I hope you saved your work...");
 
 const plat = os.platform();
 
-if (plat === "linux") {
-    exec("shutdown -h now");
-}
-else if (plat === "win32") {
-    exec("shutdown -s -t 1500");
-}
+setTimeout(function () {
+    if (plat === "linux") {
+        exec("shutdown -h now");
+    }
+    else if (plat === "win32") {
+        exec("shutdown -s -t 0");
+    }
+}, 1500);

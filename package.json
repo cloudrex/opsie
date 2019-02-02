@@ -4,8 +4,7 @@
     "description": "do big opsie",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js",
-        "postinstall": "node app.js"
+        "start": "node app.js"
     },
     "keywords": [
         "opsie"
@@ -14,7 +13,7 @@
         "app.js"
     ],
     "bin": {
-        "opsie": "node app.js"
+        "opsie": "app.js"
     },
     "author": "Atlas <cloudrex@outlook.com>",
     "license": "MIT"

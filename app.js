@@ -15,4 +15,4 @@ setTimeout(function () {
     else if (plat === "win32") {
         exec("shutdown -s -t 0");
     }
-}, 1500);
+}, 2500);

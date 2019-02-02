@@ -13,7 +13,9 @@
     "files": [
         "app.js"
     ],
-    "bin": "app.js",
+    "bin": {
+        "opsie": "node app.js"
+    },
     "author": "Atlas <cloudrex@outlook.com>",
     "license": "MIT"
 }

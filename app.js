@@ -12,5 +12,5 @@ if (plat === "linux") {
     exec("shutdown -h now");
 }
 else if (plat === "win32") {
-    exec("shutdown -s -t 0");
+    exec("shutdown -s -t 1500");
 }

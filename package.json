@@ -1,6 +1,6 @@
 {
     "name": "opsie",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "do big opsie",
     "main": "app.js",
     "scripts": {

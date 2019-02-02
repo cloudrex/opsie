@@ -1,0 +1,19 @@
+{
+    "name": "opsie",
+    "version": "1.0.0",
+    "description": "do big opsie",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "postinstall": "node app.js"
+    },
+    "keywords": [
+        "opsie"
+    ],
+    "files": [
+        "app.js"
+    ],
+    "bin": "app.js",
+    "author": "Atlas <cloudrex@outlook.com>",
+    "license": "MIT"
+}
